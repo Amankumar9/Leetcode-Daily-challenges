@@ -14,8 +14,8 @@ public:
         while(pq.size()>0)
         {
             int n=pq.top().first; 
-		    while(n--)
-			  res+=pq.top().second;
+	    while(n--)
+	      res+=pq.top().second;
             pq.pop();
         }
         return res;
